@@ -1,0 +1,115 @@
+﻿  stb_image.c
+  XMLParserUserTools.cpp
+  XMLParser.cpp
+  Audio.cpp
+  Camera.cpp
+  Console.cpp
+  EngineConfig.cpp
+  ErrorWarningAssert.cpp
+  FileBinaryStream.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\core\filebinarystream.cpp(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\core\filebinarystream.cpp(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Image.cpp
+  Noise.cpp
+  Rgba.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\thirdparty\xmlparser\xmlparser.cpp(2068): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\thirdparty\xmlparser\xmlparser.cpp(2070): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  StringUtils.cpp
+  Time.cpp
+  Windows.cpp
+  DX11.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\core\console.cpp(114): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\core\console.cpp(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  DX11BlendState.cpp
+  DX11TextRenderer.cpp
+  DX11Texture2D.cpp
+  FileUtils.cpp
+  ObjReader.cpp
+  InputSystem.cpp
+  KeyState.cpp
+  XboxControl.cpp
+  AABB2.cpp
+  AABB3.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\file\fileutils.cpp(50): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Capsule3D.cpp
+  ConvexHull3D.cpp
+  Cylinder3D.cpp
+  Disc2D.cpp
+  IntVector2.cpp
+  IntVector3.cpp
+  LineSegment2D.cpp
+  LineSegment3D.cpp
+  MathUtils.cpp
+  Matrix4.cpp
+  Plane3D.cpp
+  Sphere3D.cpp
+  UVector4.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Vector4.cpp
+  BitMapFont.cpp
+  Renderer.cpp
+  SpriteAnimation.cpp
+  SpriteSheet.cpp
+  Texture.cpp
+  ConstantBuffer.cpp
+  DepthStencilState.cpp
+  RasterState.cpp
+  RHI.cpp
+  RHIDevice.cpp
+  RHIDeviceContext.cpp
+  RHIInstance.cpp
+  RHIOutput.cpp
+  Sampler.cpp
+  ShaderProgram.cpp
+  SimpleRenderer.cpp
+  StructuredBuffer.cpp
+  VertexBuffer.cpp
+  FBXList.cpp
+  FBXMeshLoading.cpp
+  MatrixStack.cpp
+  Mesh.cpp
+  MeshBuilder.cpp
+  Motion.cpp
+  Pose.cpp
+  Skeleton.cpp
+  SkeletonInstance.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\tools\motion.cpp(73): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\tools\skeleton.cpp(30): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\rhi\simplerenderer.cpp(442): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\rhi\simplerenderer.cpp(487): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\rhi\simplerenderer.cpp(526): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+stb_image.obj : warning LNK4006: stbi_convert_iphone_png_to_rgb already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_failure_reason already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_hdr_to_ldr_gamma already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_hdr_to_ldr_scale already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_image_free already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_info already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_info_from_callbacks already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_info_from_file already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_info_from_memory already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_is_hdr already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_is_hdr_from_callbacks already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_is_hdr_from_file already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_is_hdr_from_memory already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_ldr_to_hdr_gamma already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_ldr_to_hdr_scale already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_load already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_load_from_callbacks already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_load_from_file already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_load_from_memory already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_loadf already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_loadf_from_callbacks already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_loadf_from_file already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_loadf_from_memory already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_set_flip_vertically_on_load already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_set_unpremultiply_on_load already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_buffer already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_malloc already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_malloc_guesssize_headerflag already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_noheader_buffer already defined in Image.obj; second definition ignored
+stb_image.obj : warning LNK4006: stbi_zlib_decode_noheader_malloc already defined in Image.obj; second definition ignored
+  Engine.vcxproj -> C:\Guildhall\p4v\depot\C26\Students\wilsonjc\Projects\DFS1\MusicalAsteroids\Temporary\Engine_x64_Debug\Engine.lib

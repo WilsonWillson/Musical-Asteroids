@@ -1,0 +1,12 @@
+﻿  Audio.cpp
+c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\audio\audio.cpp(227): warning C4189: 'modresult': local variable is initialized but not referenced
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\algorithm(923): warning C4996: 'std::transform::_Unchecked_iterators::_Deprecate': Call to 'std::transform' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\algorithm(923): note: see declaration of 'std::transform::_Unchecked_iterators::_Deprecate'
+  c:\guildhall\p4v\depot\c26\students\wilsonjc\projects\engine\code\engine\audio\audio.cpp(688): note: see reference to function template instantiation '_OutIt *std::transform<float*,float*,AudioSystem::NormalizeVolume::<lambda_c75c8db57d1ab484f885679fd9fe4eae>>(_InIt,_InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _InIt=float *,
+              _Fn=AudioSystem::NormalizeVolume::<lambda_c75c8db57d1ab484f885679fd9fe4eae>
+          ]
+  Engine.vcxproj -> C:\Guildhall\p4v\depot\C26\Students\wilsonjc\Projects\DFS1\MusicalAsteroids\Temporary\Engine_Win32_Debug\Engine.lib
